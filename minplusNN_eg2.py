@@ -15,7 +15,7 @@ parser = argparse.ArgumentParser(description='min plus NN for high dimensional o
 parser.add_argument('--t0', type = float, default = 0.0, help ='initial time')
 parser.add_argument('--T', type = float, default = 1.0, help ='terminal time')
 parser.add_argument('--plot', type = str, default = "S", help ='which quantity to plot: S, err or xu')
-parser.add_argument('--case', type = int, default = 1, help ='which case in example 2: case 1 or 2')
+parser.add_argument('--case', type = int, default = 2, help ='which case in example 2: case 1 (low-dim) or 2')
 parser.add_argument('--Lx', type = int, default = "20", help ='number of grid points for x in RK')
 args = parser.parse_args()
 
